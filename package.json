@@ -1,0 +1,21 @@
+{
+  "name": "init-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.2.7",
+    "ora": "^6.3.1",
+    "rimraf": "^5.0.1"
+  }
+}
