@@ -1,4 +1,4 @@
-# init-project
+# init-qtproject
 
 ### 安装
 
@@ -7,6 +7,7 @@ npm install init-qtproject -g
 ```
 
 ### 使用
+
 ```console
-init-project
+init-qtproject
 ```
