@@ -49,7 +49,7 @@ const success = [
   {
     type: "confirm",
     name: "vscode",
-    message: "通过VSCode牛逼器打开？",
+    message: "通过VSCode编译器打开",
   },
 ]
 
