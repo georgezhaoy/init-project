@@ -103,7 +103,10 @@ function updatePackageName(projectName, targetDir, zhName) {
   const spinner = ora("正在修改项目名称...").start();
   const packageJsonPath = path.resolve(targetDir, "package.json");
   const storeJsonPath = path.resolve(
-    targetDir + "\\src\\stores\\modules",
+    targetDir,
+    "src",
+    "stores",
+    "modules",
     "common.ts"
   );
   const htmlPath = path.resolve(targetDir, "index.html");
