@@ -53,8 +53,11 @@ const success = [
   },
 ];
 
-const openCurrentDirectoryWithVSCode = (projectName) =>
-  execSync(`code ${__dirname}\\${projectName}`);
+const openCurrentDirectoryWithVSCode = (projectName) => {
+  const fullPath = path.join(__dirname, projectName);
+
+  execSync(`code ${fullPath}`);
+};
 
 async function createProject() {
   try {
